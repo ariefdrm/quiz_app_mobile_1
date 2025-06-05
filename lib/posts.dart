@@ -41,10 +41,10 @@ class _PostsState extends State<Posts> {
           return ListTile(
             leading: Image.asset('images/chat-bubble.png'),
             title: Text(
-              'nama: ' + posts[index]['title'],
+              'Title: ' + posts[index]['title'],
               style: TextStyle(fontWeight: FontWeight.bold),
             ),
-            subtitle: Text('nim: ' + posts[index]['body']),
+            subtitle: Text('Isi: ' + posts[index]['body']),
           );
         },
       ),
